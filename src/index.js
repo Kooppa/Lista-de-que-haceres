@@ -10,6 +10,8 @@ export const todoList = new TodoList();
 // todoList.todos.forEach(todo => crearTodoHtml(todo)); Es lo mismo que la liena de abajo
 todoList.todos.forEach(crearTodoHtml);
 
+console.log('todos: ', todoList.todos);
+
 // const tarea = new Todo('Aprender JS!!!');
 // todoList.nuevoTodo(tarea);
 
